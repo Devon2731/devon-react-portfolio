@@ -1,0 +1,63 @@
+.resume-section {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-word;
+  background-color: #2AB0DC;
+  border-radius: 0.7%;
+
+}
+
+.resume-section h1 {
+  text-align: center;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  font-size: 50px;
+}
+
+.resume-margin {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+/* Apply styles to the list container */
+.resume-section .container {
+  color: white; /* Change font color to white */
+  text-align: center; /* Center text horizontally */
+}
+
+.resume-section .container h3,
+.resume-section .container ul {
+  color: black; /* Reset color for list items */
+  list-style-type: none; /* Remove default bullet points */
+  padding-left: 0; /* Remove default padding */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+
+}
+
+.resume-section .container li {
+  color: white;
+  text-align: center; /* Align list items to the left */
+  font-weight: bold;
+}
+
+span {
+  font-weight: bolder;
+  color: purple;
+  font-size: 20px;
+}
+
+#proficiencies {
+  font-weight: bold;
+  color: white
+}
+
+#technical-skills {
+  font-weight: bolder;
+  color: whitesmoke
+}
+

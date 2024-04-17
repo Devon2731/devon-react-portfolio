@@ -1,0 +1,30 @@
+#portfolio img {
+    height: 300px;
+    object-fit: cover;
+  }
+/* 
+  h1 {
+   
+    text-align: center;
+  } */
+
+  /* @media screen and (
+    max-width: 668px) {
+      #portfolio .card-wrapper {
+        width: 100% !important;
+      }
+  }
+
+  @media (max-width: 768px) {
+    .portfolio-title {
+      color: white;
+      text-shadow: -1px -1px 0 #000,  
+                1px -1px 0 #000,
+               -1px  1px 0 #000,
+                1px  1px 0 #000;
+    }
+  } */
+
+/* h1::backdrop {
+    background-color: ;
+  } */

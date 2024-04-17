@@ -1,0 +1,59 @@
+
+.about-heading {
+  text-align: center;
+  margin-top: 0.4rem;
+  margin-bottom: 3rem;
+  font-size: 50px;
+}
+
+.about-image {
+  max-width: 100%; 
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px; 
+}
+
+.card-text {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+.card-title {
+  font-family: "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#about {
+  margin-bottom: 12rem;
+}
+
+
+@media (min-width: 768px) {
+  .about-image {
+    width: 250px;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .about-image {
+    width: 300px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .about-heading {
+    color: white;
+    text-shadow: -1px -1px 0 #000,  
+                1px -1px 0 #000,
+               -1px  1px 0 #000,
+                1px  1px 0 #000;
+  }
+}
