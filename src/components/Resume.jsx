@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Button, Card } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import "./styles/resume.css";
 import PDF from "../Document/Resume (1).pdf"
 
