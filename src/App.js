@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes,Navigate } from "react-router-dom";
 import Header from "./components/Header";
 import About from "./components/About";
 import Portfolio from "./components/PortfolioSection";
@@ -22,6 +22,7 @@ function App() {
             <Route path="/React-Portfolio/portfolio" element={<Portfolio />} />
             <Route path="/React-Portfolio/resume" element={<Resume />} />
             <Route path="/React-Portfolio/contact" element={<Contact />} />
+            <Route path="*" element={<Navigate to="/" />} />
             {/* <Route path="/React-Portfolio/resume" element={<Resume />} /> */}
           </Routes>
         </div>
