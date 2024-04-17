@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "./styles/resume.css";
-import PDF from "../Document/Resume (1).pdf"
+import PDF from "../Document/DevoWhitakerATSfriendlyresumeDA.pdf"
 
 // Resume component
 function Resume() {
