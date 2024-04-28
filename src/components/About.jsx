@@ -26,7 +26,7 @@ function About() {
                 <Card.Text>
                   As a man of ambition and determination, I'm always  looking for the right job that fits me for years.I stubbled on the path to becoming a full-stack developer. My journey as a full-stack developer began with a curiosity for technology and a drive to learn. Coding fascinated me from the start, with its ability to turn ideas into reality and solve problems creatively.
 
-                  Despite facing challenges and moments of uncertainty, I persisted, dedicating countless hours to mastering programming languages, frameworks, and technologies across the development stack.
+                  Despite facing challenges and moments of uncertainty, I'm persisted, dedicating countless hours to mastering programming languages, frameworks, and technologies across the development stack.
 
                   Beyond technical skills, I cultivated a mindset of innovation and collaboration, seeking out opportunities to learn from others and embracing feedback as a means to grow.
 

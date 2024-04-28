@@ -50,7 +50,9 @@ function PortfolioSection() {
 
   return (
     <div className="d-flex flex-wrap ">
-      <h1 className="text-white text-left m-1 p-2 relative shadow-lg text-center flex-grow-1 position-sticky">Projects</h1>
+      <h1 className="text-white text-left m-1 p-2 relative shadow-lg text-center flex-grow-1 position-sticky">
+        Projects
+      </h1>
       <div className="container">
         <div className="row">
           {projects.map((project, index) => (
@@ -68,7 +70,7 @@ function PortfolioSection() {
                   )}
                   <a
                     href={project.github}
-                    className="btn btn-primary "
+                    className="btn btn-primary  "
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -76,7 +78,7 @@ function PortfolioSection() {
                   </a>
                   <a
                     href={project.deployed}
-                    className="btn btn-primary"
+                    className="btn btn-primary my-3"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
