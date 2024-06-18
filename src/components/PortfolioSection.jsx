@@ -4,6 +4,7 @@ import Translator from "../assets/Screenshot 2023-10-15 at 4.48.20 PM.png";
 import Weather from "../assets/270458549-7e33fdb0-aac5-4d03-9c11-8ed7e37a38f9-1.png";
 import workScheduler from "../assets/269428973-e2861515-3ad7-4405-9a31-d0b361be2b5c.png";
 import disclone from "../assets/clone.png";
+import iBall from "../assets/iBall247.png";
 import books from "../assets/Screenshot 2024-02-21 at 7.30.55 AM.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/portfolioSection.css";
@@ -45,6 +46,12 @@ function PortfolioSection() {
       image: books,
       github: "https://github.com/Devon2731/Book-Search-Engine",
       deployed: "https://my-book-search-engines-4789a017d099.herokuapp.com/",
+    },
+    {
+      name: "iBall247",
+      image: iBall,
+      github: "https://github.com/Devon2731/iball",
+      deployed: "https://www.iball247.com/",
     },
   ];
 
