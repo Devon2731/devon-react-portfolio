@@ -1,10 +1,10 @@
 import React from "react";
 import "./style/project.css";
 
-// Project component
+
 function Project(props) {
   return (
-    // Card container for each project
+    
     <div className="card">
       <h5 className="card-title">{props.title}</h5>
       <a href={props.deployedLink} target="_blank" rel="noreferrer">
@@ -25,7 +25,7 @@ function Project(props) {
           href={props.githubLink}
           target="_blank"
           rel="noreferrer"
-          className="btn btn-repo"
+          className="btn btn-repo "
         >
           GitHub Repo
         </a>
@@ -33,5 +33,5 @@ function Project(props) {
     </div>
   );
 }
-// Export Project
+
 export default Project;

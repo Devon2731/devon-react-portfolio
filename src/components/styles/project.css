@@ -1,0 +1,65 @@
+/* Common styles for all buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px; /* Add padding here */
+    margin: 10px 5px; /* Add margin here for spacing */
+    font-size: 16px; /* Optional: Font size */
+    text-align: center; /* Center align text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Optional: Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Optional: Smooth transition */
+  }
+  
+  /* Specific styles for the "btn-deployed" class */
+  .btn-deployed {
+    background-color: #007bff; /* Example primary color */
+    color: #fff; /* White text color */
+    border: 2px solid #007bff; /* Border matching the background color */
+  }
+  
+  /* Specific styles for the "btn-repo" class */
+  .btn-repo {
+    background-color: #28a745; /* Example secondary color */
+    color: #fff; /* White text color */
+    border: 2px solid #28a745; /* Border matching the background color */
+  }
+  
+  /* Hover state for "btn-deployed" */
+  .btn-deployed:hover {
+    background-color: #0056b3; /* Darker shade for hover state */
+    color: #fff; /* Ensure text stays white */
+    border-color: #0056b3; /* Border color changes to match the hover state */
+  }
+  
+  /* Hover state for "btn-repo" */
+  .btn-repo:hover {
+    background-color: #218838; /* Darker shade for hover state */
+    color: #fff; /* Ensure text stays white */
+    border-color: #218838; /* Border color changes to match the hover state */
+  }
+  
+  /* Active state for "btn-deployed" */
+  .btn-deployed:active {
+    background-color: #004085; /* Even darker shade for active state */
+    border-color: #004085; /* Border color changes to match the active state */
+  }
+  
+  /* Active state for "btn-repo" */
+  .btn-repo:active {
+    background-color: #1e7e34; /* Even darker shade for active state */
+    border-color: #1e7e34; /* Border color changes to match the active state */
+  }
+  
+  /* Focus state for accessibility */
+  .btn-deployed:focus, .btn-repo:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); /* Blue shadow for focus */
+  }
+  
+  /* Container for buttons to add top and bottom margin */
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adds vertical space between buttons */
+  }
+  
