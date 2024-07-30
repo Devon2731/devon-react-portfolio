@@ -3,7 +3,7 @@ import nightLineupImage from "../assets/Screenshot 2023-10-11 at 9.22.15 PM.pn
 import Translator from "../assets/Screenshot 2023-10-15 at 4.48.20 PM.png";
 import Weather from "../assets/270458549-7e33fdb0-aac5-4d03-9c11-8ed7e37a38f9-1.png";
 import workScheduler from "../assets/269428973-e2861515-3ad7-4405-9a31-d0b361be2b5c.png";
-import SeeYouThurday from "../assets/SYT.png";
+import SeeYouThurday from "../assets/SeeYouThursdayGlass.png";
 import disclone from "../assets/clone.png";
 import iBall from "../assets/iBall247.png";
 import books from "../assets/Screenshot 2024-02-21 at 7.30.55 AM.png";
@@ -70,14 +70,15 @@ function PortfolioSection() {
       <div className="container">
         <div className="row">
           {projects.map((project, index) => (
-            <div className="col-md-4" key={index}>
+            <div className="col-md-4 mb-5" key={index}>
               <div className="card mb-4">
                 <img
                   src={project.image}
                   className="card-img-top"
                   alt={`Screenshot of ${project.name} project`}
+                  style={{objectFit: "cover", height: "200px"}}
                 />
-                <div className="card-body">
+                <div className="card-body d-flex flex-column">
                   <h5 className="card-title">{project.name}</h5>
                   {project.description && (
                     <p className="card-text">{project.description}</p>
